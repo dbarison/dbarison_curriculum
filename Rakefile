@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "epilotto_curriculum"
-    gem.summary = %Q{Enrico Pilotto's Curriculm Vitae}
-    gem.description = %Q{Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal}
-    gem.email = "enrico@megiston.it"
-    gem.homepage = "http://github.com/pioz/epilotto_curriculum"
+    gem.name = "dbarison_curriculum"
+    gem.summary = %Q{Davide Barison's Curriculm Vitae}
+    gem.description = %Q{Get Davide Barison's Curriculm Vitae typing 'dbarison' from your terminal}
+    gem.email = "davide@megiston.it"
+    gem.homepage = "http://github.com/dbarison/epilotto_curriculum"
     gem.authors = ["Enrico Pilotto"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     gem.add_dependency "term-ansicolor"
@@ -48,7 +48,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "epilotto_curriculum #{version}"
+  rdoc.title = "dbarison_curriculum #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

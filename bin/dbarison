@@ -1,0 +1,96 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'launchy'
+require 'term/ansicolor'
+include Term::ANSIColor
+
+curriculum = <<-EOF
+  
+  Curriculum vitae di #{red}#{bold}Davide Barison#{reset}
+ ------------------------------------
+
+#{bold}Informazioni personali:#{reset}
+      indirizzo | via Papa Giovanni XXIII 4, Masera` di Padova (PD) - 35020
+       telefono | +39 328 65 98 021
+          email | davide@megiston.it
+                |
+   cittadinanza | italiana
+data di nascita | 16/03/1984
+          sesso | maschile
+
+#{bold}Percorso di studi:#{reset}
+           2003 | Diploma di perito informatico capotecnico industriale presso    
+                | Istituto tecnico statale Francesco Severi di Padova (PD) 
+           2008 | Laurea triennale in informatica
+                | presso l'Universita` degli Studi di Padova
+                | con voto finale di 91/110
+            
+#{bold}Esperienze professionali:#{reset}
+   dal 15-06-01 | Stage liceale presso OM Businaro snc (Albignasego PD).  
+    al 30-07-01 | Scopo del progetto  la creazione di un sito pubblicitario statico in HTML. 
+                |  
+   dal 15-06-02 | Stage liceale presso Ottogalli spa di Padova.
+    al 30-07-02 | Scopo del progetto la creazione di un sito pubblicitario industriale
+                | dinamico in php, con supporto database. 
+                |  
+     dal 7-1-08 | Ho collaborato nella realizzazione di un’ applicazione web per la gestione di informazioni riguardanti CV
+     al 1-06-08 | L'applicazione e` stata sviluppata su piattaforma J2EE con l'ausilio del Framework Struts.    
+                | Degna di nota l'integrazione con un motore di WorkFlow (OpenWFE)
+                | per la gestione del ciclo di vita dei documenti inseriti. 
+                | https://sourceforge.net/projects/mogeci  
+                |
+    dal 1-07-08 | Stage universitario presso Intec srl (www.intec.cc) di Padova. Scopo del progetto l’im- 
+    al 01-09-09 | plementazione di un por tale in Ruby on Rails per la pubblicizzazione internazionale. 
+                | Il por tale si caratterizza per avere un suppor to di internazionalizzazione anche nel 
+                | database. La web application e‘ stata realizzata secondo le regole del nuovo web 
+                | 2.0, integrando funzionalita‘ Social. Il por tale sviluppato è correntemente in uso.
+                |                              
+      2009-2010 | Lavoro come libero professionista sviluppandpo applicazioni web in 'Ruby on Rails'.
+                | In particolare Frontend-developer di un team di liberi professionisti 
+                
+#{bold}Capacita` e competenze personali:#{reset}
+         lingue | madrelingua italiano
+                | inglese livello intermedio
+                |
+ programmazione | C/C++ molto buono
+                | Ruby molto buono
+                | Javascript molto buono (jQuery) 
+                | Java buono
+                | Python base
+                | .NET C# base
+                | PHP buono
+                |
+  framework web | Ruby on Rails molto buono
+                |
+       librerie | GTK/GTKmm
+                | OpenGL
+                | WxWidgets
+                |
+           S.O. | GNU/Linux Debian molto buono
+                | MacOSX 10.5 molto buono
+                | ms Windows base
+                |
+        patente | Automobilistica B
+
+#{bold}Ulteriori informazioni :#{reset}     
+siti pubblicati | www.barison.org, www.intec.cc, www.lavocedelleterme.it, www.coqu.co.uk, 
+                | www.clinicalrent.com, www.salvoarredamenti.com, www.capolinea88.com, 
+                | www.megiston.it, vesta.megiston.it, tecoma.megiston.it 
+                |
+    curiosita`  | Utilizzo dal 1999 Debian GNU/linux. Professionalmente invece Mac OSX.
+                | Gestisco numerosi servers dedicati locati all'estero.
+                | Appassionato di web design da autodidatta ho imparato ad usare Adobe Photoshop. 
+                | So risolvere i problemi informatici semplicemente cercando su google e documentazioni.
+                | Attualmente utilizziamo o abbiamo utilizzato piu` di 100 gemme e plugins per rails.
+                | La mia visione del futuro nell'informatica? web-application e cloud-computing.
+                | Insieme ad Enrico Pilotto abbiamo generalizzato al massimo la creazione di una web app e sfruttando
+                | la potenza delle rubygems abbiamo creato un sistema modulare per la creazione semi-istantanea
+                | di portali ed e-commerce.
+                             
+                
+
+           
+EOF
+
+puts curriculum

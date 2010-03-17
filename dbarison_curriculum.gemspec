@@ -4,16 +4,16 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{epilotto_curriculum}
+  s.name = %q{dbarison_curriculum}
   s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Enrico Pilotto"]
+  s.authors = ["Davide Barison"]
   s.date = %q{2010-03-04}
-  s.default_executable = %q{epilotto}
-  s.description = %q{Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal}
-  s.email = %q{enrico@megiston.it}
-  s.executables = ["epilotto"]
+  s.default_executable = %q{dbarison}
+  s.description = %q{Get Davide Barison's Curriculm Vitae typing 'dbarison' from your terminal}
+  s.email = %q{davide@megiston.it}
+  s.executables = ["dbarison"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -25,20 +25,20 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "bin/epilotto",
-     "epilotto_curriculum.gemspec",
-     "lib/epilotto_curriculum.rb",
+     "bin/dbarison",
+     "dbarison_curriculum.gemspec",
+     "lib/dbarison_curriculum.rb",
      "test/helper.rb",
-     "test/test_epilotto_curriculum.rb"
+     "test/test_dbarison_curriculum.rb"
   ]
-  s.homepage = %q{http://github.com/pioz/epilotto_curriculum}
+  s.homepage = %q{http://github.com/dbarison/epilotto_curriculum}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Enrico Pilotto's Curriculm Vitae}
+  s.summary = %q{Davide Barison's Curriculm Vitae}
   s.test_files = [
     "test/helper.rb",
-     "test/test_epilotto_curriculum.rb"
+     "test/test_dbarison_curriculum.rb"
   ]
 
   if s.respond_to? :specification_version then

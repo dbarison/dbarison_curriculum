@@ -4,7 +4,7 @@ require 'shoulda'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'epilotto_curriculum'
+require 'dbarison_curriculum'
 
 class Test::Unit::TestCase
 end
