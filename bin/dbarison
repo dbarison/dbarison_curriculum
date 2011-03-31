@@ -6,7 +6,7 @@ include Term::ANSIColor
 
 curriculum = <<-EOF
   
-  Curriculum vitae/Résumé of #{red}#{bold}Davide Barison#{reset}
+  Curriculum vitae/Resume` of #{red}#{bold}Davide Barison#{reset}
  ------------------------------------
 
 #{bold}Personal information:#{reset}
