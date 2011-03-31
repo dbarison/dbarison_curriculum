@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f55676d2-7aba-4263-b79f-e4565b850769" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbarison_curriculum.gemspec" afterPath="$PROJECT_DIR$/dbarison_curriculum.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dbarison_curriculum/version.rb" afterPath="$PROJECT_DIR$/lib/dbarison_curriculum/version.rb" />
     </list>
     <ignored path="dbarison_curriculum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/dbarison_curriculum/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.021341464">
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbarison_curriculum.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dbarison_curriculum.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbarison_curriculum.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="2" selection-start="792" selection-end="792" vertical-scroll-proportion="0.42682928">
+            <state line="20" column="2" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/lib/dbarison_curriculum.rb" />
         <option value="$PROJECT_DIR$/VERSION" />
         <option value="$PROJECT_DIR$/bin/dbarison" />
-        <option value="$PROJECT_DIR$/lib/dbarison_curriculum/version.rb" />
         <option value="$PROJECT_DIR$/dbarison_curriculum.gemspec" />
+        <option value="$PROJECT_DIR$/lib/dbarison_curriculum/version.rb" />
       </list>
     </option>
   </component>
@@ -396,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dbarison_curriculum/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
@@ -412,7 +405,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dbarison_curriculum.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="792" selection-end="792" vertical-scroll-proportion="0.42682928">
+        <state line="20" column="2" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dbarison_curriculum/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="44" selection-end="44" vertical-scroll-proportion="0.021341464">
           <folding />
         </state>
       </provider>
