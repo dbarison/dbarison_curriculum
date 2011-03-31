@@ -1,6 +1,6 @@
 = epilotto_curriculum
 
-Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal.
+Get Davide Barison's Curriculm Vitae typing 'dbarison' from your terminal.
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +14,4 @@ Get Enrico Pilotto's Curriculm Vitae typing 'epilotto' from your terminal.
 
 == Copyright
 
-Copyright (c) 2010 Enrico Pilotto. See LICENSE for details.
+Copyright (c) 2010 Davide Barison. See LICENSE for details.

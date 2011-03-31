@@ -1,3 +1,3 @@
 module DbarisonCurriculum
-  # Your code goes here...
+  VERSION = "0.0.4"
 end
